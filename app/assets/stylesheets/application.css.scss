@@ -1,0 +1,127 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "*";
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+body {
+  padding-top:60px;
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 1.5em; 
+  font-weight: 900;
+}
+
+.container-fluid {
+  margin:0;
+  padding:0;
+}
+
+.main_nav {
+  background-color: white;
+  height: 93px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  margin-top: 0;
+  overflow: visible;
+  z-index: 4;
+  border-color:white;
+
+  .navbar-toggle {
+    background-color: #D91E18;
+    border-color: #D91E18;
+    &:hover {
+      background-color: #3d3d3d;
+      border-color: #3d3d3d;
+    }
+  }
+
+  .main_logo {
+    padding:0.5em 0 0.5em 0;
+  }
+
+  .navbar-right {
+    padding: 1.7em;
+
+    li a {
+      color: black;
+      font-weight: 300;
+
+      &:hover {
+        color:#3d3d3d;
+      }
+    }
+  }
+}
+
+/* FEATURETTE */
+.featurette-divider-first{
+  margin: 0 0 80px 0;
+}
+
+
+/* BUTTONS */
+.btn-success {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 0.025em;
+  color: white;
+  text-transform: uppercase;
+  background-color: #D91E18;
+  border-radius: 3px;
+  border-bottom: 1px solid #D91E18;
+  padding: 17px 35px;
+  text-decoration: none;
+  display: inline-block;
+  white-space: nowrap;
+  border-color: #D91E18;
+
+  &:hover {
+    background-color:#2ABB9B;
+    border-color:#2ABB9B;
+  }
+}
+
+.btn-default {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 0.025em;
+  color: #3d3d3d;
+  text-transform: uppercase;
+  background-color: white;
+  border-radius: 3px;
+  border-bottom: 1px solid #3d3d3d;
+  padding: 17px 35px;
+  text-decoration: none;
+  display: inline-block;
+  white-space: nowrap;
+  border-color: #3d3d3d;
+
+  &:hover {
+    background-color:#3d3d3d;
+    border-color:#3d3d3d;
+    color:white;
+  }
+}

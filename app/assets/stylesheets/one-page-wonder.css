@@ -1,0 +1,255 @@
+/*!
+ * Start Bootstrap - One Page Wonder HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    margin-top: 93px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.header-image {
+    min-height:650px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url('/assets/main_logo4.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position:0% 85%;
+}
+
+.headline {
+    padding: 120px 0;
+}
+
+.headline h1 {
+    padding-top:0.2em;
+    color:white;
+    font-size: 90px;
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-weight: 900;
+    padding-bottom:0.3em;
+}
+
+.headline h2 {
+    font-size: 50px;
+    background: #fff;
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-weight: 300;
+}
+
+.featurette-divider {
+    margin: 80px 0;
+}
+
+.featurette {
+    overflow: hidden;
+}
+
+.featurette-image.pull-left {
+    margin-right: 40px;
+}
+
+.featurette-image.pull-right {
+    margin-left: 40px;
+}
+
+.featurette-heading {
+    font-size: 50px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+@media(max-width:1200px) {
+    .headline h1 {
+        font-size: 140px;
+    }
+
+    .headline h2 {
+        font-size: 63px;
+    }
+
+    .featurette-divider {
+        margin: 50px 0;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 20px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 20px;
+    }
+
+    .featurette-heading {
+        font-size: 35px;
+    }
+}
+
+@media(max-width:991px) {
+    .headline h1 {
+        font-size: 105px;
+    }
+
+    .headline h2 {
+        font-size: 50px;
+    }
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .featurette-image {
+        max-width: 50%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 10px;
+    }
+
+    .featurette-heading {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:768px) {
+    .container {
+        margin: 0 15px;
+    }
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .featurette-heading {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:668px) {
+    .headline h1 {
+        font-size: 70px;
+    }
+
+    .headline h2 {
+        font-size: 32px;
+    }
+
+    .featurette-divider {
+        margin: 30px 0;
+    }
+}
+
+@media(max-width:640px) {
+    .headline {
+        padding: 75px 0 25px 0;
+    }
+
+    .headline h1 {
+        font-size: 60px;
+    }
+
+    .headline h2 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:375px) {
+    .featurette-divider {
+        margin: 10px 0;
+    }
+
+    .featurette-image {
+        max-width: 100%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+}
+
+/*! Website content. */
+
+.about {
+    padding: 2em 0em;
+    font-size: 1.5em;
+    font-weight:300;
+    background-color:#D91E18;
+    color: white;
+    line-height: 150%;
+}
+
+.services {
+    background-color: #F6F7FA;
+}
+
+#services {
+    padding: 0 9em;
+
+}
+
+.descriptor_headline {
+    text-align:center;
+    font-size: 1.5em;
+    font-weight:bold;
+    padding: 0.5em 0;
+}
+
+.descriptor_text {
+    text-align:justify;
+    font-size: 1.3em;
+    font-weight:300;
+}   
+
+.descriptor_logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pricing {
+    font-size:1.3em;
+    font-weight:300;
+}
+
+.pricing_block {
+    padding: 4em;
+    background-color: #EFF0F2;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    min-height: 175px;
+    width: 275px;
+    display: inline-block;
+    zoom: 1;
+    margin: 0px 10px;
+    text-align: center;
+    border: 2px solid #cccccc;
+}
+
+.faq {
+    background-color: #F6F7FA;
+}
+
+footer {
+    padding-top:2em;
+    background-color: #D91E18;
+    color:white;
+    min-height:500px;
+    margin:0;
+}
