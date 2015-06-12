@@ -1,0 +1,23 @@
+<div class="container"> 
+  <div class="row"> 
+    <div class="col-lg-8 col-lg centered">
+      <table class="table">
+        <caption>Visual interface to handle visitors.</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+        <% @visitors.each do |v| %>
+          <tr>
+            <td><%= v.name %></td>
+            <td><%= v.email %></td>
+          </tr>
+        <% end %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
